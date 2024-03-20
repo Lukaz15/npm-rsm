@@ -1,0 +1,19 @@
+{
+  "name": "npm-rsm",
+  "version": "1.0.0",
+  "description": "Random String Messages for the Platzi NPM courses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Garcia <lukazgarcia274@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "rsm": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
